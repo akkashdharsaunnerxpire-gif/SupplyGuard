@@ -1,0 +1,81 @@
+.risk-analysis-section {
+  margin-top: 24px;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+}
+
+.analysis-risk-badge {
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.analysis-risk-badge.critical {
+  color: #b91c1c;
+  background: #fee2e2;
+}
+
+.analysis-risk-badge.high {
+  color: #c2410c;
+  background: #ffedd5;
+}
+
+.analysis-risk-badge.medium {
+  color: #a16207;
+  background: #fef9c3;
+}
+
+.risk-summary {
+  margin-top: 22px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.risk-summary h3,
+.recommendations h3 {
+  margin: 0 0 10px;
+}
+
+.risk-summary p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.recommendations {
+  margin-top: 22px;
+}
+
+.recommendation-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.recommendation-icon {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #fff7ed;
+  color: #ea580c;
+  font-size: 18px;
+}
+
+.recommendation-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.recommendation-item small {
+  display: block;
+  color: #64748b;
+}
